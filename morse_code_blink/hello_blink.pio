@@ -1,0 +1,12 @@
+.program hello_blink
+
+; uhhh so I'm coding this now before my pico comes, I don't know if this will even work xd.
+
+loop:
+    pull
+    out pins, 1
+    jmp loop
+
+% c-sdk {
+    
+}
